@@ -5,7 +5,7 @@ export class Slug {
     this.value = value
   }
 
-  static createFromtext(text: string){
+  static createFromText(text: string){
     const slugText = text
     .normalize("NFKD") 
     .toLowerCase()
